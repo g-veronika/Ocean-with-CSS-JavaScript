@@ -34,4 +34,11 @@ body {
     bottom: 0;
     left: -50%;
     border-radius: 35%;
+    animation: waves 5s ease-in-out alternate infinite;
+}
+
+@keyframes waves {
+    to {
+        transform: translateY(-50%);
+    }
 }
